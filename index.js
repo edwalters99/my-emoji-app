@@ -1,5 +1,5 @@
 // Make the pop and shift buttons work as well
-const myEmojis = ["👨‍💻", "⛷", "🍲"]
+const myEmojis = ["👨‍💻", "📡", "🍲"]
 const emojiContainer = document.getElementById("emoji-container")
 const emojiInput = document.getElementById("emoji-input")
 const pushBtn = document.getElementById("push-btn")
@@ -38,7 +38,7 @@ unshiftBtn.addEventListener("click", function(){
 })
 
 popBtn.addEventListener("click", function() {
-    
+
     myEmojis.pop(emojiInput.value)
     emojiInput.value = ""
     renderEmojis()
@@ -46,7 +46,7 @@ popBtn.addEventListener("click", function() {
 )
 
 shiftBtn.addEventListener("click", function() {
-    
+
     myEmojis.shift(emojiInput.value)
     emojiInput.value = ""
     renderEmojis()
