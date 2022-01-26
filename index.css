@@ -21,16 +21,23 @@ body {
 
 #push-btn, #unshift-btn {
     background-color: #80D87F;
+    cursor: pointer;
 }
+
 
 #shift-btn,#pop-btn {
     background-color: #E23349;
+    cursor: pointer;
 }
+
 
 #displmode-btn {
     align-content: center;
 }
 
+#push-btn:hover, #unshift-btn:hover, #shift-btn:hover, #pop-btn:hover, #displmode-btn:hover {
+    transform: scale(1.05);
+}
 
 h1 {
     letter-spacing: 2px;
@@ -63,4 +70,3 @@ button {
     justify-content: center;
     margin: 10px 0 0;
 }
-
